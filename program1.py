@@ -7,9 +7,9 @@ class Solution(object):
    #     pass
 
  def isValid(s: str) -> bool:
-    # Dictionary to match opening and closing brackets
+    
     bracket_map = {')': '(', ']': '[', '}': '{'}
-    # Stack to keep track of opening brackets
+    
     stack = []
     
     # Iterate over each character in the string
