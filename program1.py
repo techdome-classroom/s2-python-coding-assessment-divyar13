@@ -11,8 +11,6 @@ class Solution(object):
     bracket_map = {')': '(', ']': '[', '}': '{'}
     
     stack = []
-    
-    
     for char in s:
         
         if char in bracket_map:
@@ -24,8 +22,6 @@ class Solution(object):
         else:
             
             stack.append(char)
-    
-
     return not stack
 
 
