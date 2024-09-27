@@ -6,7 +6,6 @@ class Solution(object):
  #       """
    #     pass
 
-    
     bracket_map = {')': '(', ']': '[', '}': '{'}
     
     stack = []
